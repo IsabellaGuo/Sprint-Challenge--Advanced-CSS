@@ -1,1 +1,21 @@
 // Mixins Here
+
+.display(){
+    display: flex;
+}
+
+.position(){
+    justify-content: center;
+}
+
+.button (@align, @radius){
+    color: white;
+    background-color: @btn-bg-color;
+    text-align: @align;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: @radius;
+    width: 20%
+}
+
+@phone: ~"(max-width: 500px)";
