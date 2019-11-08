@@ -174,16 +174,33 @@ p {
   font-size: 3rem;
   margin: 0 0 1% 40%;
 }
+@media (max-width: 500px) {
+  .top h1 {
+    margin: 1% auto;
+  }
+}
 .top nav {
   width: 70%;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .top nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 nav a {
   text-decoration: none;
   color: #23293B;
   margin: 5% 0 5% 14%;
   font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  nav a {
+    margin: 5% auto;
+  }
 }
 img {
   margin: 9% 0 0 20%;

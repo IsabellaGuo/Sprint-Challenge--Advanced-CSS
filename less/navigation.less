@@ -13,6 +13,9 @@
     h1{
         font-size: 3rem;
         margin: 0 0 1% 40%;
+        @media @phone{
+            margin: 1% auto;
+        }
     }
 
     nav{
@@ -20,6 +23,11 @@
         .display();
         justify-content: center;
         
+        @media @phone{
+            width: 90%;
+            .display();
+            justify-content: space-evenly;
+        }
     }
     
 }
@@ -32,6 +40,10 @@ nav a{
     color: @ebony-clay;
     margin: 5% 0 5% 14%;
     font-size: 1.5rem;
+    @media @phone{
+       margin: 5% auto; 
+
+    }
 }
 
 img{
