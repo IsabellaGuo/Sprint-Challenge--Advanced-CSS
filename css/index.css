@@ -223,6 +223,17 @@ footer {
 }
 .home .intro h2 {
   padding: 15px;
+  background-color: #7FFFD4;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 90%;
+  }
 }
 .home .intro p {
   padding: 0 15px;
